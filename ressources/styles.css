@@ -13,8 +13,32 @@ aside {
   opacity: 0.8;
 }
 
+                    /*Header*/
+.logo {
+  width: 100px;
+  height: 40px;
+}
+
+.navigation li{
+  display: inline;
+  justify-content: right;
+  font-size: 14px
+
+}
+
+
+
+                    /*Hebergement*/
 .hebergement {
   background-color: #F2F2F2; 
+  padding: 20px;
+  margin: 20px;
+  width: 50%;
+  float: left; 
+  border-radius: 20px; 
+  height: 525px; 
+  width: 900px; 
+  display: inline;
 }
 
 .hebergement img{
@@ -29,20 +53,53 @@ aside {
   width: 200px;
   height: 150px;
   border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+  display: inline-block;
+
 
 }
 
-.logo {
-    width: 100px;
-    height: 40px;
+
+                  /*Les Plus Populaires*/
+.plus_populaires {
+  background-color: #F2F2F2; 
+  padding: 20px;
+  margin: 20px;
+  width: 350px; 
+  float: right; 
+  border-radius: 20px;
+  height: 525px;
+  display: inline;
 }
 
-.navigation li{
-    display: inline;
-    justify-content: right;
-    font-size: 14px
-
+.plus_populaires img{
+  height: 90px;
+  width: 85px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
 }
+.plus_populaires figure{
+  background-color: white;
+  width: 260px;
+  height: 92px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.plus_populaires figcaption{
+  float: left;
+  padding: 5px;
+}
+.plus_populaires aside{
+  float: left;
+  padding: 5px;
+}
+
+
+                  /*Activite*/
+
+
 
 
 
@@ -73,7 +130,6 @@ aside {
     line-height:1.6;
     font-size:14px;
     margin-bottom:0;
-    display: inline-block;
   }
   
   .footer-clean ul a {
