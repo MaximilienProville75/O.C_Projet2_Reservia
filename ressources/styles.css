@@ -13,20 +13,49 @@ aside {
   opacity: 0.8;
 }
 
+h3 {
+  font-stretch: expanded;
+}
+
+
+                  /* Star Ratings*/ 
+.fa-star {
+  color: #F2F2F2;
+}
+.checked {
+  color: #0065FC;
+}
+
+.plus_populaires{
+  align-items: baseline;
+}
                     /*Header*/
 .logo {
   width: 100px;
   height: 40px;
+  padding: 20px; 
+}
+.navigation {
+  float: right;
+  padding: 20px;
+  color: #0065FC; 
 }
 
 .navigation li{
   display: inline;
   justify-content: right;
-  font-size: 14px
-
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+.title_main {
+  padding: 20px; 
+}
 
+form {
+  padding: 20px 10px;
+}
 
                     /*Hebergement*/
 .hebergement {
