@@ -3,16 +3,52 @@
     font-family: Raleway, sans-serif;
 }
 
+figcaption {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+aside {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.hebergement {
+  background-color: #F2F2F2; 
+}
+
+.hebergement img{
+  height: 90px;
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.hebergement figure{
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+
+}
+
 .logo {
     width: 100px;
-    height: 50px;
+    height: 40px;
 }
 
 .navigation li{
     display: inline;
     justify-content: right;
+    font-size: 14px
 
 }
+
+
+
+
+
+
 
 
 .footer-clean {
