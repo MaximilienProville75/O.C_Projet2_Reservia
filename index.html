@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Reservia</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="ressources/index.css" stylesheet='css/style'>
+    <link rel="stylesheet" href="ressources/styles.css" stylesheet='css/style'>
 </head>
-<body>
 
+<body>
     <!-- Header & Nav --> 
     <header>
         <img src="ressources/images/logo/Reservia@3x.png" class="logo">
@@ -20,8 +21,8 @@
     </header>
 
     <div>
-        <h3>Trouvez votre hebergement pour des vacances de reve</h3>
-        <h6 style='color : grey'>En plein centre-ville ou en pleine nature</h6>
+        <h2>Trouvez votre hebergement pour des vacances de reve</h2>
+        <aside>En plein centre-ville ou en pleine nature</aside>
     </div>
 
     <!-- Search Button --> 
@@ -33,51 +34,107 @@
 
     <!-- Search Result Number-->
     <div>
-        <img src="   ">
-        <h6 style='color : grey'>Plus de 500 logmenets sont disponibles dans cette ville</h6>
+        <img src="">
+        <aside>Plus de 500 logmenets sont disponibles dans cette ville</aside>
     </div>
 
     <!-- Hebergement Div-->
-    <div>
-        <h4>Heberment a Marseille</h4>
-        <img src="ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+    <div class="hebergement">
+        <h4>Hebergement a Marseille</h4>
+       <figure> 
+           <img src="ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+           <figcaption>Auberge la Cannebiere</figcaption>
+           <aside>Nuit a partir de <strong>25€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+       <figure>
+           <img src="ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+           <figcaption>Hotel du Port</figcaption>
+           <aside>Nuit a partir de <strong>52€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+       <figure>
+           <img src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+           <figcaption>Hotel les mouettes</figcaption>
+           <aside>Nuit a partir de <strong>76€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+       <figure>
+           <img src="ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+           <figcaption>Hotel de la mer</figcaption>
+           <aside>Nuit a partir de <strong>46€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+       <figure>
+           <img src="ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+           <figcaption>Auberge Le Panier</figcaption>
+           <aside>Nuit a partir de <strong>23€</strong></aside>
+    </figure>
 
-        <img src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+       <figure>
+           <img src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+           <figcaption>Hotel chez Amina</figcaption>
+           <aside>Nuit a partir de <strong>96€</strong></aside>
+        </figure>
+        
     </div>
 
     <!-- Les plus populaires-->
-    <div>
+    <div class = "plus_populaires">
         <h4>Les plus populaires</h4>
-        <img src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+            <figcaption>Hotel Le soleil du matin</figcaption>
+            <aside>Nuit a partir de <strong>128€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+            <figcaption>Au coeur de l'eau <br>Chambres d'hotes</figcaption>
+            <aside>Nuit a partir de <strong>71€</strong></aside>
+        </figure>
 
-        <img src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
+            <figcaption>Hotel Tout bleu et Blanc</figcaption>
+            <aside>Nuit a partir de <strong>68€</strong></aside>
+        </figure>
 
     </div>
 
     <!-- Activite -->
     <div>
         <h4>Activite a Marseille</h4>
-        <img src="ressources/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
 
-        <img src="ressources/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+            <figcaption>Vieux Port</figcaption>
+        </figure>
 
-        <img src="ressources/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+            <figcaption>Fort de Pomegues</figcaption>
+        </figure>
 
-        <img src="ressources/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+            <figcaption>Iles du Frioul</figcaption>
+        </figure>
 
-        <img src="ressources/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+            <figcaption>Parc National des Calanques</figcaption>
+        </figure>
 
-        <img src="ressources/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+        <figure>
+            <img src="ressources/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+            <figcaption>Notre-Dame-de-la-Garde</figcaption>
+        </figure>
+
+        <figure>
+            <img src="ressources/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+            <figcaption>Parc Longchamp</figcaption>
+        </figure>
     </div>
 
 
