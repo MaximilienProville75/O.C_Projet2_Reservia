@@ -1,0 +1,183 @@
+*{
+    font-family: "Raleway", sans-serif;
+}
+h1 {
+    font-size: 22px;
+}
+h3 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+#reservia_page{
+    width: 1400px;
+    margin: auto;
+}
+
+/*Header*/
+
+#logo_title{
+    display: block;
+}
+header{
+    display: flex;
+}
+#logo img{
+    height: 60px;
+    width: 120px;
+    padding-top: 30px;
+}
+nav{
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    padding: 30px;
+    font-size: 14px;
+    margin: 0;
+}
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#filtres{
+    display: flex;
+}
+
+
+.filtre_button{
+    padding: 20px;
+}
+
+
+#resultat_recherche{
+    display: flex;
+}
+
+
+
+/*Main Body*/
+#hebergement_plus_populaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Hebergement*/
+#hebergement{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+    border: 3px solid white;
+}
+#hebergement h1{
+    padding: 25px;
+    font-weight: bold;
+}
+
+#annonce_hebergement{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.annonce_fig{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+ .annonce_fig img{
+     height: 125px;
+     width: 225px;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+ }
+.annonce_fig figcaption{
+    font-weight: bold;
+    padding: 5px;
+}
+.annonce_fig aside{
+    padding: 5px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+ .annonce_fig .prix{
+     font-weight: bold;
+     color: black;
+ }
+
+
+
+
+/*Les plus populaire */
+#Les_plus_populaires{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#plus_populaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#plus_populaire figure{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 10px;
+}
+
+
+.plus_populaire_fig img{
+    height: 125px;
+    width: 125px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+
+
+#A_propos{
+    width: 33%;
+}
+#nos_hebergements{
+    width: 33%;
+}
+#Assistance{
+    width: 33%
+}
+
+footer li{
+    list-style-type: none;
+}
