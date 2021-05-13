@@ -1,6 +1,7 @@
 * {
     display: flexbox;
-    font-family: Raleway, sans-serif;
+    flex-direction: column;
+    font-family: Raleway, sans-serif; 
 }
 
 figcaption {
@@ -15,6 +16,12 @@ aside {
 
 h3 {
   font-stretch: expanded;
+}
+
+.main_body {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 
@@ -85,7 +92,9 @@ form {
   padding: 5px;
   margin: 20px;
   display: inline-block;
+  position: relative;
 
+}
 
 }
 
@@ -103,19 +112,22 @@ form {
 }
 
 .plus_populaires img{
-  height: 90px;
+  height: 96px;
   width: 85px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   float: left;
+  margin: 5px 5px;
 }
+
 .plus_populaires figure{
   background-color: white;
-  width: 260px;
-  height: 92px;
+  width: 270px;
+  height: 110px;
   border-radius: 10px;
-  margin: 20px;
+  margin: 40px;
 }
+
 .plus_populaires figcaption{
   float: left;
   padding: 5px;
@@ -124,6 +136,11 @@ form {
   float: left;
   padding: 5px;
 }
+
+.plus_populaires span{
+  float: left;
+}
+
 
 
                   /*Activite*/
@@ -137,23 +154,24 @@ form {
 
 
 
-.footer-clean {
+footer {
     padding:50px 0;
     background-color : #F2F2F2;
     color:Black;
     clear: both;
     position: relative;
+    flex-direction: row;
 }
 
   
-  .footer-clean h3 {
+  .footer h3 {
     margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
     font-size:16px;
   }
   
-  .footer-clean ul {
+  .footer ul {
     padding:0;
     list-style:none;
     line-height:1.6;
@@ -161,13 +179,13 @@ form {
     margin-bottom:0;
   }
   
-  .footer-clean ul a {
+  .footer ul a {
     color:inherit;
     text-decoration: none;
     opacity:0.8;
   }
   
-  .footer-clean ul a:hover {
+  .footer ul a:hover {
     opacity:1;
     color: blue;
   }
