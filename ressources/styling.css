@@ -133,7 +133,7 @@ button:hover{
 
 
 
-/*Filtre lign + button */
+/*Filtre ligne + button */
 
 #filtres{
     display: flex;
@@ -166,7 +166,7 @@ button:hover{
   }
 .filtre_button:hover{
     background-color: #DEEBFF;
-    box-shadow: 2px 2px 2px gray;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
     cursor: pointer;
     transform: scale(1.03);
     transition: ease 0.4s;
@@ -201,11 +201,15 @@ button:hover{
 }
 
 #resultat_recherche .fas{
-    color: white;
-    background-color: #0065FC;
+    color: #0065FC;
     border-radius: 50%;
-}
+    border: 2px solid #F2F2F2;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 2px;
 
+}
 
 
 
@@ -223,7 +227,7 @@ button:hover{
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 2px 2px gray;
     border: 3px solid white;
     max-height: 670px;
     max-width: 1500px;
@@ -231,7 +235,7 @@ button:hover{
 #hebergement h1{
     padding: 15px;
     font-weight: bold;
-    margin: 20px;
+    margin: 20px 20px 20px 30px;
     letter-spacing: 0.5px;
 }
 
@@ -247,7 +251,7 @@ button:hover{
     border-radius: 20px;
     padding: 3px;
     margin: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
 }
 
  .annonce_fig img{
@@ -255,6 +259,7 @@ button:hover{
      width: 250px;
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
+     object-fit: cover;
  }
 .annonce_fig figcaption{
     font-weight: bold;
@@ -297,6 +302,7 @@ button:hover{
 
 
 
+
 /*Les plus populaire */
 
 #Les_plus_populaires{
@@ -304,7 +310,7 @@ button:hover{
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
     border: 3px solid white;
     min-height: 670px;
     max-height: 670px;
@@ -313,7 +319,7 @@ button:hover{
 
 #Les_plus_populaires h1{
     display: flex;
-    padding: 25px;
+    padding: 25px 25px 15px 25px;
     font-weight: bold;
     justify-content: space-between;
 }
@@ -329,7 +335,7 @@ button:hover{
     background-color: white;
     border-radius: 20px;
     padding: 3px;
-    margin: 20px;
+    margin: 15px;
     max-height: 125px;
 }
 
@@ -338,7 +344,7 @@ button:hover{
     border-radius: 20px;
     padding: 3px;
     margin: 10px;
-    box-shadow: 5px 5px 5px gray
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
 }
 
 
@@ -348,27 +354,44 @@ button:hover{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     float: left;
+    object-fit: cover;
 }
 
 .plus_populaire_fig figcaption{
     font-weight: bold;
-    padding: 5px 5px 0px 10px;
+    padding: 5px 5px 0px 15px;
     letter-spacing: 0.5px;
+    margin-left: 128px;
+    margin-bottom: 10px;
 }
 
 .plus_populaire_fig aside{
     color: gray;
     font-weight: lighter;
+    margin-left: 140px;
 }
 
 .plus_populaire_fig .prix{
     font-weight: bold;
     color: black;    
+    
 }
 
 .plus_populaire_fig a{
     text-decoration: none;
     color: black;
+}
+
+.plus_populaire_fig .star_rating{
+    text-align: left;
+    margin-top: 33px;
+    margin-left: 130px;
+}
+
+.plus_populaire_fig .star_rating_2{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 140px;
 }
 
 
@@ -377,6 +400,7 @@ button:hover{
     transform: scale(1.03);
     transition: ease 0.4s;
 }
+
 
 
 
@@ -389,7 +413,7 @@ button:hover{
 .gallery_activite {
     margin-top: 20px;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 3fr 0.3fr 0.3fr 0.3fr 0.3fr 3fr;
@@ -465,8 +489,8 @@ footer{
     width: 100%;
     background: #F2F2F2;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
+
 }
 
 .footer_blocks{
@@ -484,14 +508,24 @@ footer{
 
 .footer_block h3{
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-weight: bold;
     letter-spacing: 0.5px;
 }
 
 .footer_block a{
+    padding: 0  0 5px 0;
     text-decoration: none;
     color: initial;
 }
 
 
+
+
+
+
+@media screen and (max-width: 480px) {
+
+  }
+  
+  
