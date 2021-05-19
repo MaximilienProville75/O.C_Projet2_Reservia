@@ -19,11 +19,11 @@ h3 {
 
 .fa-star {
     color: #F2F2F2;
-  }
+}
 
 .checked {
     color: #0065FC;
-  }
+}
 
 /*Header*/
 header {
@@ -31,7 +31,7 @@ header {
     max-width: 1440px;
     margin-left: -30px;
     margin-top: -21px;
-  }
+}
   
 .navbar {
     display: grid;
@@ -47,82 +47,78 @@ header {
     padding: 0;
     height: 45px;
     width: 95px;
-  }
+}
   
 .navbar .navbar-link {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
+}
   
 .navbar .navbar-link .underline-effect {
     width: 100%;
     height: 5px;
     background: white;
-  }
+}
   
 .navbar #navbar-link-accomodation > .underline-effect {
     background: #0065fc;
-  }
+}
   
-  .navbar #navbar-link-activities:hover > .underline-effect {
+.navbar #navbar-link-activities:hover > .underline-effect {
     background: #0065fc;
-  }
+}
   
-  #navbar-link-sign-up a {
+#navbar-link-sign-up a {
     color: #0065fc;
-  }
+}
   
-  .navbar a {
+.navbar a {
     color: black;
     text-decoration: none;
     padding: 25px;
-  }
+}
   
-  .navbar a:visited {
+.navbar a:visited {
     color: #0065fc;
-  }
+}
   
-  .navbar img {
+.navbar img {
     grid-area: logo;
-  }
+}
   
-  .navbar #navbar-link-accomodation {
+.navbar #navbar-link-accomodation {
     grid-area: accomodation;
-  }
+}
   
-  #navbar-link-accomodation a {
+#navbar-link-accomodation a {
     color: #0065fc;
-  }
+}
   
-  .navbar #navbar-link-activities {
+.navbar #navbar-link-activities {
     grid-area: activities;
     color: black;
-  }
+}
   
-  .navbar #navbar-link-activities a {
+.navbar #navbar-link-activities a {
     color: black;
-  }
+}
   
-  .navbar #navbar-link-activities a:hover {
+.navbar #navbar-link-activities a:hover {
     color: #0065fc;
-  }
+}
   
-  .navbar #navbar-link-sign-up {
+.navbar #navbar-link-sign-up {
     grid-area: sign-up;
     color: #0065fc;
     font-weight: 600;
-  }
+}
   
-  .navbar .active-link {
+.navbar .active-link {
     color: #0065fc;
-  }
+}
   
-
-
-
 
 /*Bouton recherche*/
 #research_button{
@@ -146,7 +142,6 @@ input {
     font-weight: bold;
     color: black;
 }
-
 
 .button-research{
     height: 45px;
@@ -172,10 +167,6 @@ input {
   }
 
 
-
-
-
-
 /*Filtre ligne + button */
 
 #filter{
@@ -186,7 +177,6 @@ input {
     text-align: center;
     letter-spacing: 0.5px;
 }
-
 
 .filter_button{
     display: flex;
@@ -230,10 +220,6 @@ input {
 
 
 
-
-
-
-
 /*research result*/
 #research_result{
     display: flex;
@@ -256,9 +242,6 @@ input {
     padding: 2px;
 
 }
-
-
-
 
 
 /*Main Body*/
@@ -344,9 +327,6 @@ input {
     padding-bottom: 450px;
     letter-spacing: 0.5px;
 }
-
-
-
 
 
 /*Les plus populaire */
@@ -448,8 +428,6 @@ input {
 }
 
 
-
-
 /*Gallery Activite*/
 .marseille_act{
     margin-top: 125px;
@@ -526,9 +504,6 @@ input {
   }
   
 
-
-
-
 /*footer*/
 
 footer{
@@ -566,16 +541,7 @@ footer{
 }
 
 
-
-
-
-
 @media screen and (max-width: 480px) {
-    #reservia_page{
-        max-width: auto;
-        
-    }
-    
 
     .navbar {
         display: grid;
@@ -584,30 +550,29 @@ footer{
         grid-template-areas:
         "logo navbar-link-sign-up"
         "navbar-link-accomodation navbar-link-activities";
-      }
-      .navbar img {
+    }
+    .navbar img {
         grid-area: logo;
-      }
-      .navbar #navbar-link-accomodation {
+    }
+    
+    .navbar #navbar-link-accomodation {
         flex-direction: column-reverse;
         grid-area: navbar-link-accomodation;
-      }
-      .navbar #navbar-link-activities {
+    }
+      
+    .navbar #navbar-link-activities {
         flex-direction: column-reverse;
         grid-area: navbar-link-activities;
-      }
-      .navbar #navbar-link-activities .underline-effect {
+    }
+      
+    .navbar #navbar-link-activities .underline-effect {
         background-color: #dbdbdb;
-      }
-      .navbar #navbar-link-sign-up {
+    }
+    .navbar #navbar-link-sign-up {
         display: flex;
         justify-content: flex-end;
         grid-area: navbar-link-sign-up;
-      }
-
-
-
-
+    }
         
     #title h1{
         font-size: 30px;
@@ -636,7 +601,6 @@ footer{
         text-align: center;
     }
 
-
     #icon-glass{
         display: block;
         height: 45px;
@@ -646,9 +610,6 @@ footer{
         margin:0;
         margin-left: -12px;
     }
-
-
-
 
     #filter{
         display: flex;
@@ -674,8 +635,8 @@ footer{
     #accomodation{
         width: 100%;
         height: auto;
-        border: none;
-        border-radius: none;
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
 
         background-color: white;
@@ -693,7 +654,6 @@ footer{
         margin-left: -5px;
     }
 
-
     .annonce_fig{
         width: auto;
         height: auto;
@@ -706,16 +666,16 @@ footer{
     #Most_Popular{
         width: 100%;
         min-height: auto;
-        border: none;
-        border-radius: none;
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
         margin:10px 0px 10px -10px;
     }
     #Popular{
         width: 100%;
         height: auto;
-        border: none;
-        border-radius: none;
+        border: 0;
+        border-radius: 0;
         box-shadow: none;
         justify-content: center;
     }
@@ -760,15 +720,11 @@ footer{
         display: flex;
         flex-direction: column;
     }
-
-
   }
   
-  
-@media screen and (max-width: 780px) and (min-width: 481px){
-    
 
-    
+@media screen and (max-width: 780px) and (min-width: 481px){
+
     #accomodation{
         overflow: scroll;
         width: 70%;
@@ -826,8 +782,7 @@ footer{
         height: 600px;
         flex-direction: column;
         width: 100%;
-        overflow-x: auto;
-
+        overflow-x: scroll;
     }
 
     .activity_full-card{
