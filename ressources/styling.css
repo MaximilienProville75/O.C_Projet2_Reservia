@@ -483,7 +483,6 @@ input {
 
 
 
-
 /*footer*/
 
 footer{
@@ -698,7 +697,7 @@ footer{
         width: 95%;
     }
     .gallery_activite{
-        margin: 0px;
+        margin: 10px 0;
         grid-gap: 30px;
     }
 
@@ -711,3 +710,96 @@ footer{
   }
   
   
+@media screen and (max-width: 780px) and (min-width: 481px){
+    
+
+    
+    #hebergement{
+        overflow: scroll;
+        width: 70%;
+    }
+    #annonce_hebergement{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #annonce_hebergement figure{
+        margin-top : 20px;
+    }
+    
+    #Les_plus_populaires{
+        width: 480px;
+        height: 200px;
+    }
+
+    #plus_populaire figure{
+        margin-top : 38px;
+    }
+
+    .plus_populaire_fig figcaption{
+        text-align: center;
+    }
+    .plus_populaire_fig aside{
+        text-align: center;
+    }
+
+    .plus_populaire_fig .star_rating{
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 130px;
+        text-align: center;
+    }
+    
+    .plus_populaire_fig .star_rating_2{
+        text-align: left;
+        margin-top: 5px;
+        margin-left: 140px;
+        text-align: center;
+    }
+
+    #gallery{
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+    }
+
+    .gallery_activite {
+        margin: 0;
+        padding: 0;
+        height: 600px;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: auto;
+
+    }
+
+    .activity_full-card{
+        width: 300px;
+        height: 175px;
+        margin: 10px;
+
+    }
+
+    .activity_full-card img{
+        object-fit: cover;
+    }
+
+    #big_pic_1{
+        height: 450px;
+    }
+
+    #big_pic_2{
+        height: 450px;
+    }
+
+    .footer_blocks{
+        justify-content: space-evenly;
+    }
+
+    footer{
+        position: absolute;
+    }
+}
+
