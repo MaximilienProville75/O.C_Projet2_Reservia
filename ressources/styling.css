@@ -26,54 +26,100 @@ h3 {
   }
 
 /*Header*/
-header{
-    display: inline-block;
-}
-
-#logo img{
-    height: 60px;
-    width: 120px;
-    padding-top: 30px;
+header {
+    width: 98%;
+    max-width: 1440px;
+    margin-left: -30px;
+    margin-top: -21px;
+  }
+  
+.navbar {
+    display: grid;
+    justify-content: center;
     align-items: center;
-}
-
-#logo_title{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-nav ul{
-    list-style-type: none;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo . accomodation activities sign-up";
+    margin-right: -70px;
+  }
+  
+#logo img{
+    padding: 0;
+    height: 45px;
+    width: 95px;
+  }
+  
+.navbar .navbar-link {
     display: flex;
-}
-
-nav li{
-    padding: 30px;
-    font-size: 14px;
-    margin: 0;
-}
-
-nav a
-{
-    font-size: 1.3em;
-    color: #181818;
-    padding-bottom: 3px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+.navbar .navbar-link .underline-effect {
+    width: 100%;
+    height: 5px;
+    background: white;
+  }
+  
+.navbar #navbar-link-accomodation > .underline-effect {
+    background: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities:hover > .underline-effect {
+    background: #0065fc;
+  }
+  
+  #navbar-link-sign-up a {
+    color: #0065fc;
+  }
+  
+  .navbar a {
+    color: black;
     text-decoration: none;
-}
-
-#sign_up{
-    color: #0065FC;
-    font-weight: bold;
-}
-
-nav a:hover{
-    border-top: 4px solid #0065FC;
-    padding-top: 50px;
-    color: #0065FC;
-}
-
-
+    padding: 25px;
+  }
+  
+  .navbar a:visited {
+    color: #0065fc;
+  }
+  
+  .navbar img {
+    grid-area: logo;
+  }
+  
+  .navbar #navbar-link-accomodation {
+    grid-area: accomodation;
+  }
+  
+  #navbar-link-accomodation a {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-activities {
+    grid-area: activities;
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a {
+    color: black;
+  }
+  
+  .navbar #navbar-link-activities a:hover {
+    color: #0065fc;
+  }
+  
+  .navbar #navbar-link-sign-up {
+    grid-area: sign-up;
+    color: #0065fc;
+    font-weight: 600;
+  }
+  
+  .navbar .active-link {
+    color: #0065fc;
+  }
+  
 
 
 
@@ -531,25 +577,34 @@ footer{
     }
     
 
-    #logo{
-        height: 60px;
-        width: 120px;
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "logo navbar-link-sign-up"
+        "navbar-link-accomodation navbar-link-activities";
+      }
+      .navbar img {
         grid-area: logo;
+      }
+      .navbar #navbar-link-accomodation {
+        flex-direction: column-reverse;
+        grid-area: navbar-link-accomodation;
+      }
+      .navbar #navbar-link-activities {
+        flex-direction: column-reverse;
+        grid-area: navbar-link-activities;
+      }
+      .navbar #navbar-link-activities .underline-effect {
+        background-color: #dbdbdb;
+      }
+      .navbar #navbar-link-sign-up {
+        display: flex;
+        justify-content: flex-end;
+        grid-area: navbar-link-sign-up;
+      }
 
-    }
-
-    header{
-        width:auto;
-    }
-
-    nav li{
-        flex: 1 0 100%; /* [1] */
-        order: 2; /* [2] */
-        margin: 1rem -1rem -1rem -1rem; /* [3] */
-        padding: 1rem; /* [4] */
-        display: flex; /* [5] */
-        justify-content: center; /* [5] */
-    }
 
 
 
