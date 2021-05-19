@@ -125,11 +125,11 @@ header {
 
 
 /*Bouton recherche*/
-#bouton_recherche{
+#research_button{
     display: flex;
     align-items: flex-start;
 }
-#bouton_recherche i{
+#research_button i{
     width: auto;
     height: 16px;
     padding: 15px;
@@ -178,17 +178,17 @@ input {
 
 /*Filtre ligne + button */
 
-#filtres{
+#filter{
     display: flex;
 }
-#filtres h1{
+#filter h1{
     margin:25px 7px 15px 0px;
     text-align: center;
     letter-spacing: 0.5px;
 }
 
 
-.filtre_button{
+.filter_button{
     display: flex;
     width: auto;
     height: auto;
@@ -202,12 +202,12 @@ input {
     margin :20px 7px 15px 7px;
 }
 
-.filtre_button a{
+.filter_button a{
     text-decoration: none;
     color: black;  
     padding: 10px 10px 10px 10px;
   }
-.filtre_button:hover{
+.filter_button:hover{
     background-color: #DEEBFF;
     box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
     cursor: pointer;
@@ -215,7 +215,7 @@ input {
     transition: ease 0.4s;
   }
   
-.filtre_button i{
+.filter_button i{
     width: 20px;
     height: auto;
     padding: 10px 10px 15px 10px;
@@ -223,7 +223,7 @@ input {
     border-radius: 100px;
   }
   
-.filtre_button .fas{
+.filter_button .fas{
     background-color: #DEEBFF;
     color: #0065FC;
 }
@@ -234,19 +234,19 @@ input {
 
 
 
-/*resultat_recherche*/
-#resultat_recherche{
+/*research result*/
+#research_result{
     display: flex;
     align-items: center;
 }
 
-#resultat_recherche h3{
+#research_result h3{
     font-weight: lighter;
     padding-left: 10px;
     letter-spacing: 0.5px;
 }
 
-#resultat_recherche .fas{
+#research_result .fas{
     color: #0065FC;
     border-radius: 50%;
     border: 2px solid #F2F2F2;
@@ -262,14 +262,14 @@ input {
 
 
 /*Main Body*/
-#hebergement_plus_populaire{
+#accomodation_most_popular{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 /*Hebergement*/
-#hebergement{
+#accomodation{
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 10px;
@@ -278,14 +278,14 @@ input {
     height: 670px;
     width: 1500px;
 }
-#hebergement h1{
+#accomodation h1{
     padding: 15px;
     font-weight: bold;
     margin: 20px 20px 20px 30px;
     letter-spacing: 0.5px;
 }
 
-#annonce_hebergement{
+#annonce_accomodation{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
@@ -351,7 +351,7 @@ input {
 
 /*Les plus populaire */
 
-#Les_plus_populaires{
+#Most_Popular{
     margin-left: 40px;
     background-color: #F2F2F2;
     border-radius: 15px;
@@ -363,19 +363,19 @@ input {
     width: 525px;
 }
 
-#Les_plus_populaires h1{
+#Most_Popular h1{
     display: flex;
     padding: 25px 25px 15px 25px;
     font-weight: bold;
     justify-content: space-between;
 }
 
-#plus_populaire{
+#Popular{
     display: flex;
     flex-direction: column;
 }
 
-#plus_populaire figure{
+#Popular figure{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -385,7 +385,7 @@ input {
     max-height: 125px;
 }
 
-.plus_populaire_fig{
+.Popular_Fig{
     background-color: white;
     border-radius: 20px;
     padding: 3px;
@@ -394,7 +394,7 @@ input {
 }
 
 
-.plus_populaire_fig img{
+.Popular_Fig img{
     height: 125px;
     width: 125px;
     border-top-left-radius: 20px;
@@ -403,7 +403,7 @@ input {
     object-fit: cover;
 }
 
-.plus_populaire_fig figcaption{
+.Popular_Fig figcaption{
     font-weight: bold;
     padding: 5px 5px 0px 15px;
     letter-spacing: 0.5px;
@@ -411,37 +411,37 @@ input {
     margin-bottom: 10px;
 }
 
-.plus_populaire_fig aside{
+.Popular_Fig aside{
     color: gray;
     font-weight: lighter;
     margin-left: 140px;
 }
 
-.plus_populaire_fig .prix{
+.Popular_Fig .prix{
     font-weight: bold;
     color: black;    
     
 }
 
-.plus_populaire_fig a{
+.Popular_Fig a{
     text-decoration: none;
     color: black;
 }
 
-.plus_populaire_fig .star_rating{
+.Popular_Fig .star_rating{
     text-align: left;
     margin-top: 33px;
     margin-left: 130px;
 }
 
-.plus_populaire_fig .star_rating_2{
+.Popular_Fig .star_rating_2{
     text-align: left;
     margin-top: 35px;
     margin-left: 140px;
 }
 
 
-#plus_populaire figure:hover{
+#Popular figure:hover{
     cursor: pointer;
     transform: scale(1.03);
     transition: ease 0.4s;
@@ -619,19 +619,19 @@ footer{
         display:none;
     }
 
-    #bouton_recherche{
+    #research_button{
         justify-content: center;
         margin: 20px 0;
     }
 
-    #bouton_recherche input{
+    #research_button input{
         width: 60%;
         height: 45px;
         border: 1px solid #F2F2F2;
         font-weight: bold;
     }
 
-    #bouton_recherche i{
+    #research_button i{
         width: 20px;
         text-align: center;
     }
@@ -650,28 +650,28 @@ footer{
 
 
 
-    #filtres{
+    #filter{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-left: 6px;
         
     }
-    .filtre_button{
+    .filter_button{
         margin : 20px 2px 9px -1px;
     }
 
-    #resultat_recherche .fas{
+    #research_result .fas{
         width: 25px;
     }
 
 
-    #hebergement_plus_populaire{
+    #accomodation_most_popular{
         display: flex;
         flex-direction: column-reverse;
     }
 
-    #hebergement{
+    #accomodation{
         width: 100%;
         height: auto;
         border: none;
@@ -681,12 +681,12 @@ footer{
         background-color: white;
     }
 
-    #hebergement h1{
+    #accomodation h1{
         padding: 0;
         margin: 40px 0 5px 10px;
     }
 
-    #annonce_hebergement {
+    #annonce_accomodation {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -703,7 +703,7 @@ footer{
         width: 100%;
     }
 
-    #Les_plus_populaires{
+    #Most_Popular{
         width: 100%;
         min-height: auto;
         border: none;
@@ -711,7 +711,7 @@ footer{
         box-shadow: none;
         margin:10px 0px 10px -10px;
     }
-    #plus_populaire{
+    #Popular{
         width: 100%;
         height: auto;
         border: none;
@@ -720,11 +720,11 @@ footer{
         justify-content: center;
     }
 
-    .plus_populaire_fig .star_rating{
+    .Popular_Fig .star_rating{
         margin-left: 130px;
         margin-top: 30px;
     }
-    .plus_populaire_fig .star_rating_2{
+    .Popular_Fig .star_rating_2{
         margin-left: 140px;
 
     }
@@ -769,45 +769,45 @@ footer{
     
 
     
-    #hebergement{
+    #accomodation{
         overflow: scroll;
         width: 70%;
     }
-    #annonce_hebergement{
+    #annonce_accomodation{
         padding: 0;
         margin: 0;
         text-align: center;
         justify-content: center;
     }
     
-    #annonce_hebergement figure{
+    #annonce_accomodation figure{
         margin-top : 20px;
     }
     
-    #Les_plus_populaires{
+    #Most_Popular{
         width: 480px;
         height: 200px;
     }
 
-    #plus_populaire figure{
+    #Popular figure{
         margin-top : 38px;
     }
 
-    .plus_populaire_fig figcaption{
+    .Popular_Fig figcaption{
         text-align: center;
     }
-    .plus_populaire_fig aside{
+    .Popular_Fig aside{
         text-align: center;
     }
 
-    .plus_populaire_fig .star_rating{
+    .Popular_Fig .star_rating{
         text-align: left;
         margin-top: 5px;
         margin-left: 130px;
         text-align: center;
     }
     
-    .plus_populaire_fig .star_rating_2{
+    .Popular_Fig .star_rating_2{
         text-align: left;
         margin-top: 5px;
         margin-left: 140px;
