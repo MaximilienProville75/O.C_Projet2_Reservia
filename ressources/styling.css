@@ -33,7 +33,6 @@ h3 {
 /*Header*/
 header {
   width: 98%;
-  max-width: 1440px;
   margin-left: -30px;
   margin-top: -13px;
 }
@@ -45,7 +44,7 @@ header {
   grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "logo . accomodation activities sign-up";
-  margin-right: -70px;
+  margin-right: -7%;
 }
 
 #logo img{
@@ -436,7 +435,7 @@ input {
 .gallery_activite {
   max-width: 97%;
   margin-top: 20px;
-  height: 600px;
+  height: 500px;
   margin-bottom: 150px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -716,7 +715,7 @@ footer{
   }
   .gallery_activite{
       margin: 10px 0;
-      grid-gap: 30px;
+      grid-gap: 40px;
   }
 
   .footer_blocks{
@@ -754,6 +753,15 @@ footer{
   width: 98%;
   border: none;
 }
+.gallery_activite{
+  margin: 10px 0;
+  /* grid-gap: 40px; */
+  height: 350px;
+  width: 100%;
+  margin-bottom: 155px;
+  grid-gap: 65px;
+}
+
  
 }
 
@@ -762,17 +770,16 @@ footer{
 
 /* 2k to 4k screen*/
 
-@media  screen and (min-width: 3000px){
+@media  screen and (min-width: 2561px){
+  
   .gallery_activite{
     height: 800px;
     margin-bottom: 200px;
-    grid-gap: 125px;
+    grid-gap: 100px;
 
   }
 
-  .navbar{
-    margin-right: -75%;
-  }
+
 
   .Popular_Fig .figcaption {
     font-weight: bold;
