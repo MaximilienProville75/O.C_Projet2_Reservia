@@ -265,12 +265,11 @@ input {
   border-radius: 15px;
   /* padding: 10px; */
   box-shadow: 1px 1px 17px -9px rgb(0 0 0 / 75%);
-  border: 3px solid white;
   height: auto;
   width: auto;
 }
 
-#accomodation h1{
+#accomodation h2{
   padding: 15px;
   font-weight: bold;
   margin: 20px 20px 20px 30px;
@@ -305,10 +304,11 @@ input {
   padding: 5px 5px 5px 10px;
   letter-spacing: 0.5px;
 }
-.annonce_fig aside{
+.annonce_fig p{
   padding: 5px 5px 5px 10px;
   color: gray;
   font-weight: lighter;
+  margin: 0;
 }
 
 .annonce_fig .prix{
@@ -353,7 +353,7 @@ input {
   width: 600px;
 }
 
-#Most_Popular h1{
+#Most_Popular h2{
   display: flex;
   padding: 25px 25px 15px 25px;
   font-weight: bold;
@@ -371,7 +371,6 @@ input {
   background-color: white;
   border-radius: 20px;
   padding: 3px;
-  align-items: space;
 }
 
 .Popular_Fig{
@@ -395,14 +394,14 @@ input {
 
 .Popular_Fig .figcaption{
   font-weight: bold;
-  padding: 5px 5px 0px 15px;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
 }
 
-.Popular_Fig aside{
+.Popular_Fig p{
   color: gray;
   font-weight: lighter;
+  margin: 0;
 }
 
 .Popular_Fig .prix{
@@ -422,8 +421,12 @@ input {
   transition: ease 0.4s;
 }
 
-.information_popular{}
-
+.Popular_Fig .star_rating_2{
+}
+.Popular_Fig .star_rating_1{
+}
+.Popular_Fig .star_rating_3{
+}
 /*Gallery Activite*/
 .marseille_act{
   margin-top: 125px;
