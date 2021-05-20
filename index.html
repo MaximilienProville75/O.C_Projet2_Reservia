@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ressources/styling.css" stylesheet='css/style'>
+    <link rel="stylesheet" href="ressources/styling.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a8f258b41c.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
@@ -63,13 +63,13 @@
         <section id="accomodation_most_popular">
 
             <div id="accomodation">
-                <h1>Hébergements a Marseille</h1>
+                <h2>Hébergements a Marseille</h2>
                 <div id="annonce_accomodation">
                     <figure class="annonce_fig">
                         <a href="#">
                         <img src="ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                             alt="Auberge la Cannebiere">
-                        <figcaption>Auberge la Cannebiere</figcaption>
+                        <div class="figcaption">Auberge la Cannebiere</div>
                         <aside>Nuit a partir de <span class="prix">25e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -84,7 +84,7 @@
                         <a href="">
                         <img src="ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                             alt="Hotel du port">
-                        <figcaption>Hotel du port</figcaption>
+                        <div class="figcaption">Hotel du port</div>
                         <aside>Nuit a partir de <span class="prix">52e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -99,7 +99,7 @@
                         <a href="">
                         <img src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                             alt="Hotel les mouettes">
-                        <figcaption>Hotel les mouettes</figcaption>
+                        <div class="figcaption">Hotel les mouettes</div>
                         <aside>Nuit a partir de <span class="prix">76e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -114,7 +114,7 @@
                         <a href="">
                         <img src="ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="Hotel de la mer">
-                        <figcaption>Hotel de la mer</figcaption>
+                        <div class="figcaption">Hotel de la mer</div>
                         <aside>Nuit a partir de <span class="prix">46e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -129,7 +129,7 @@
                         <a href="">
                         <img src="ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                             alt="Auberge Le Panier">
-                        <figcaption>Auberge Le Panier</figcaption>
+                        <div class="figcaption">Auberge Le Panier</div>
                         <aside>Nuit a partir de <span class="prix">23e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -144,7 +144,7 @@
                         <a href="">
                         <img src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="Hotel chez amina">
-                        <figcaption>Hotel chez Amina</figcaption>
+                        <div class="figcaption">Hotel chez Amina</div>
                         <aside>Nuit a partir de <span class="prix">96e</span></aside>
                         <div class="star_rating">
                         <span class="fa fa-star checked"></span>
@@ -156,23 +156,24 @@
                         </a>
                     </figure>
                 </div>
-                <a href="#" class="afficher_plus"><h1>Afficher plus</h1></a>
+                <a href="#" class="afficher_plus"><h2>Afficher plus</h2></a>
             </div>
 
             <div id="Most_Popular">
                 <div class="titre_h2_i">
-                <h1>Les plus populaires<i class="fas fa-chart-line"></i></h1>
+                <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
                 </div>
 
 
 
-                
+
                 <div id="Popular">
                 <figure class="Popular_Fig">
                     <a href="">
                     <img src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                         alt="Hotel le soleil du matin">
-                    <figcaption>Hôtel Le soleil du matin</figcaption>
+                    <div class="information_popular">
+                    <div class="figcaption">Hôtel Le soleil du matin</div>
                     <aside>Nuit a partir de <span class="prix">128e</span></aside>
                     <div class="star_rating">
                     <span class="fa fa-star checked"></span>
@@ -180,6 +181,7 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
+                    </div>
                     </div>
                     </a>
                 </figure>
@@ -189,7 +191,8 @@
                     <a href="">
                     <img src="ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                         alt="Au coeur de l'eau Chambres d'Hôtes">
-                    <figcaption>Au coeur de l'eau Chambres d'Hôtes</figcaption>
+                    <div class="information_popular">
+                    <div class="figcaption">Au coeur de l'eau Chambres d'Hôtes</div>
                     <aside>Nuit a partir de <span class="prix">71e</span></aside>
                     <div class="star_rating_2">
                     <span class="fa fa-star checked"></span>
@@ -197,6 +200,7 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span>
+                    </div>
                     </div>
                     </a>
                 </figure>
@@ -206,7 +210,8 @@
                     <a href="">
                     <img src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                         alt="Hôtel Tout bleu et Blanc">
-                    <figcaption>Hôtel Tout bleu et Blanc</figcaption>
+                    <div class="figcaption">Hôtel Tout bleu et Blanc</div>
+                    <div class="information_popular">
                     <aside>Nuit a partir de <span class="prix">68e</span></aside>
                     <div class="star_rating">
                     <span class="fa fa-star checked"></span>
@@ -214,6 +219,7 @@
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star"></span>
+                    </div>
                     </div>
                     </a>
                 </figure>

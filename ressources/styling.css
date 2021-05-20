@@ -300,7 +300,7 @@ input {
    border-top-right-radius: 20px;
    object-fit: cover;
 }
-.annonce_fig figcaption{
+.annonce_fig .figcaption{
   font-weight: bold;
   padding: 5px 5px 5px 10px;
   letter-spacing: 0.5px;
@@ -393,7 +393,7 @@ input {
   margin-right: 5px;
 }
 
-.Popular_Fig figcaption{
+.Popular_Fig .figcaption{
   font-weight: bold;
   padding: 5px 5px 0px 15px;
   letter-spacing: 0.5px;
@@ -422,6 +422,7 @@ input {
   transition: ease 0.4s;
 }
 
+.information_popular{}
 
 /*Gallery Activite*/
 .marseille_act{
@@ -432,12 +433,12 @@ input {
 .gallery_activite {
   max-width: 97%;
   margin-top: 20px;
-  height: 500px;
+  height: 600px;
   margin-bottom: 150px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 3fr 0.3fr 0.3fr 0.3fr 0.3fr 3fr;
-  grid-gap: 75px;
+  grid-gap: 85px;
   grid-template-areas: "activity-1 activity-2 activity-4 activity-5" "activity-1 activity-2 activity-4 activity-5" "activity-1 activity-2 activity-4 activity-6" "activity-1 activity-2 activity-4 activity-6" "activity-1 activity-3 activity-4 activity-6" "activity-1 activity-3 activity-4 activity-6";
 }
 .englobe {
@@ -767,15 +768,15 @@ footer{
   }
 
   .navbar{
-    margin-right: -50% !important;
+    margin-right: -75%;
   }
 
-  .Popular_Fig figcaption {
+  .Popular_Fig .figcaption {
     font-weight: bold;
     font-size: 25px;
 }
 
-.Popular_Fig aside {
+.Popular_Fig p {
   font-size: 25px;
 }
 #accomodation{
@@ -789,11 +790,11 @@ footer{
   padding: 10px;
 }
 
-.annonce_fig aside {
+.annonce_fig p {
   font-size: 25px;
 }
 
-.annonce_fig figcaption {
+.annonce_fig .figcaption {
   font-size: 25px;
 }
 .annonce_fig{
