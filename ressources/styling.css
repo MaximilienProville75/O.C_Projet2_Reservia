@@ -696,6 +696,8 @@ footer{
     width: 100%;
     max-width: none;
     margin-bottom: 100px;
+    grid-gap: 70px;
+
 }
 
   .activity_full-card .englobe{
