@@ -225,7 +225,12 @@ input {
   color: #0065FC;
 }
 
-
+#filter h1 {
+  margin: 30px 13px 15px 0px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
 
 /*research result*/
 #research_result{
@@ -275,12 +280,25 @@ input {
   letter-spacing: 0.5px;
 }
 
+#accomodation h3{
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 20px 20px 20px 30px;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+#accomodation a{
+  text-decoration: none;
+}
+
 #annonce_accomodation{
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
   justify-content: space-around;
-  padding: 10px;
 }
 
 .annonce_fig{
@@ -329,13 +347,6 @@ input {
   transition: ease 0.4s;
 }
 
-.afficher_plus{
-  text-decoration: none;
-  color: black;
-  padding-top: 450px;
-  padding-bottom: 450px;
-  letter-spacing: 0.5px;
-}
 
 
 /*Les plus populaire */
@@ -353,15 +364,17 @@ input {
 }
 
 #Most_Popular h2{
-  display: flex;
-  padding: 25px 25px 15px 25px;
-  font-weight: bold;
-  justify-content: space-between;
+    display: flex;
+    padding: 0px 25px 3px 25px;
+    font-weight: bold;
+    justify-content: space-between;
 }
+
 
 #Popular{
   display: flex;
   flex-direction: column;
+  padding: 15px 0px;
 }
 
 #Popular figure {
@@ -420,12 +433,15 @@ input {
   transition: ease 0.4s;
 }
 
-.Popular_Fig .star_rating_2{
+
+.information_popular {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
 }
-.Popular_Fig .star_rating_1{
-}
-.Popular_Fig .star_rating_3{
-}
+
 /*Gallery Activite*/
 .marseille_act{
   margin-top: 125px;
