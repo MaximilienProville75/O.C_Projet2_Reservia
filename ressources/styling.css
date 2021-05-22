@@ -553,7 +553,7 @@ footer{
     grid-template-areas:
         "logo navbar-link-sign-up"
         "navbar-link-accomodation navbar-link-activities";
-    width: 113%;
+    width: 107%;
     margin: 0;
   }
   .navbar img {
