@@ -1,6 +1,5 @@
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 *{
@@ -814,6 +813,11 @@ footer{
   .footer_blocks{
       display: flex;
       flex-direction: column;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
 
